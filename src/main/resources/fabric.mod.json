@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cxyinfinitegrow",
+  "version": "${version}",
+  "name": "cxyInfiniteGrow",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/CallMeSiJue/cxyInfiniteGrow"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cxyinfinitegrow/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cxy.cxyinfinitegrow.client.CxyInfiniteGrowClient"
+    ],
+    "main": [
+      "cxy.cxyinfinitegrow.CxyInfiniteGrow"
+    ]
+  },
+  "mixins": [
+    "cxyinfinitegrow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
